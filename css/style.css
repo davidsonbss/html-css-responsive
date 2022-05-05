@@ -86,7 +86,7 @@ nav img {
 
 #news h2 {
     color: var(--color-gray);
-    font-size: 1.5rem;
+    font-size: 24px;
     margin-top: 30px;
     margin-bottom: 8px;
     text-align: center;
@@ -151,18 +151,19 @@ nav img {
 
 #games {
     background-color: var(--color-light-gray);
+    padding: 40px 0;
        
 }
 
 #games h2{
     color: var(--color-green);
-    font-size: 1.5rem;
+    font-size: 24px;
     text-align: center;
 }
 
 #games h3 {
     color: var(--color-gray);
-    font-size: 1.125rem;
+    font-size: 18px;
     text-align: center;
     margin-top: 12.5px;
     
@@ -170,7 +171,7 @@ nav img {
 
 
 .cards-container {
-    padding: 40px 10px;
+    padding: 0 10px;
 }
 
 .card-img > img {
@@ -200,13 +201,13 @@ nav img {
 .brand span{
     color: var(--color-green);
     font-weight: 700;
-    font-size: .875rem;
+    font-size: 14px;
 }
 
 .evaluation {
     color: var(--color-green);
     font-weight: 700;
-    font-size: 2.25rem;
+    font-size: 36px;
     text-align: center;
     margin-top: 13px;
 }
@@ -217,7 +218,7 @@ nav img {
 
 #subscribe h2 {
     color: var(--color-gray);
-    font-size: 1.5rem;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 16px;
 
@@ -235,7 +236,7 @@ nav img {
     background-color: var(--color-light-gray);
     padding: 52px 12px 13px 8px;
     border-radius: 8px;
-    font-size: 1rem;
+    font-size: 16px;
     color: var(--color-gray);
     box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.2);  
 }
@@ -372,6 +373,25 @@ footer {
         max-width: 990px;
         
     }
+    #news h2 {
+        font-size: 36px;
+    }
+    .card-news h3 {
+        font-size: 24px;
+    }
+
+    .resume {
+        font-size: 16px;
+    }
+
+    #games {
+        padding-top: 36px;
+        padding-bottom: 70px;
+    }   
+    #games h2{ 
+        
+        font-size: 36px;
+    }
 
    
     .cards-container {
@@ -408,7 +428,15 @@ footer {
         margin: 0 26px;
         
     }
-  
+    #subscribe h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+    .subscribe-container {
+        padding: 39px 10px 61px 10px;
+    }
+
+
     footer {
         display: flex;
         align-items: center;
